@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.navEFont{
+    font-weight:bolder;
+    font-family:Algerian;
+    margin-inline:10px;
+    font-size:1.3rem;
+}
+.navEFont:hover{
+    background-color:lightgreen;
+    border-radius:10px;
+}

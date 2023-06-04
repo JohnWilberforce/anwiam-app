@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VFT.OCT.props" />
+</Project>

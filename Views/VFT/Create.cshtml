@@ -1,0 +1,120 @@
+﻿@using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Model;
+@model VFT.OCT.Models.Vft
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3 style="text-align:center;">VFT Patient Registry</h3>
+<a asp-action="Create" style="text-decoration:none; font-weight:bolder;">Refresh</a>
+<h6 style="color:darkgreen; font-weight:bolder;">@ViewBag.success</h6>
+<hr />
+<div class="d-flex justify-content-between" >
+    <div card d-inline-block>
+        
+               
+  
+        <div class="text-dark alert-primary mb-3" style="width: 30rem; margin:auto;">
+    <div class="card-header bg-primary" style="font-weight:bolder;text-align:center">VISUAL FIELDS</div>
+    <div class="card-body">
+<div class="row">
+    
+            <div class="col-md-10" style="margin:auto;">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ScanId" class="control-label">Scan Id</label>
+                <input asp-for="ScanId" class="form-control" />
+                <span asp-validation-for="ScanId" class="text-danger"></span>
+                                
+                                <span style="color:darkred; font-weight:bolder;">@ViewBag.tryAgain</span>
+
+            </div>
+                    <br />
+            <div class="form-group">
+                <label asp-for="PatientName" class="control-label">Patient Name</label>
+                <input asp-for="PatientName" class="form-control" />
+                <span asp-validation-for="PatientName" class="text-danger"></span>
+            </div>
+                    <br />
+            <div class="form-group">
+                <label asp-for="ReferredDrName" class="control-label">Name of Doctor</label>
+                <input asp-for="ReferredDrName" class="form-control" />
+                <span asp-validation-for="ReferredDrName" class="text-danger"></span>
+            </div>
+                    <br />
+            <div class="form-group">
+                <label asp-for="ReFfacility" class="control-label">Doctor's Facility'</label>
+                <input asp-for="ReFfacility" class="form-control" />
+                <span asp-validation-for="ReFfacility" class="text-danger"></span>
+            </div>
+                    <br />
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Add Patient" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+    </div>
+
+    <div class="card d-inline-block text-dark alert-primary mb-3" style="width:30rem;">
+        
+        <div class="card-header bg-primary" style="text-align:center;font-weight:bolder;background-color:lightblue;">View VFT Records Per Date</div>
+        <div class="card-body">
+            <p>
+
+                @using (Html.BeginForm("DailyRecords", "VFT", FormMethod.Post))
+                {
+                    <input type="date" value="" name="today" />
+                    <button type="submit" class="btn btn-primary">Daily Records</button>
+                }
+
+            </p>
+            <br />
+            
+            <br />
+          <br />
+          <br />
+        
+        <div class="card" style="padding:4px; border:solid lightgray 0.5px;">
+                <div class="card-header bg-primary" style="text-align:center;font-weight:bolder;"> Generate Report</div>
+                <div class="card-body">
+            @using (Html.BeginForm("ViewReportVFT", "VFT", FormMethod.Post))
+            {
+                <div style="display:inline-flex;width:400px;justify-content:space-evenly">
+                    <div style="width:150px;">
+                        <span style="font-weight:bold;">Start</span>
+
+                        <input type="date" name="stDate" class="form-control" id="autoSizingInput" placeholder="Start Date">
+
+                    </div>
+                    <div style="width:150px;">
+                        <span style="font-weight:bold;">End</span>
+
+                        <input type="date" name="eDate" class="form-control" id="autoSizingInputGroup" placeholder="End Date">
+
+                    </div>
+                    <button type="submit" style="font-weight:bolder;margin-left:4%;padding:2px; border-radius:10px;" class="btn-warning">Generate Report</button>
+                </div>
+            }
+        </div>
+        </div>
+    </div>
+    
+    </div>
+</div>
+@*<div>
+    <a asp-action="Index">Back to List</a>
+</div>*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

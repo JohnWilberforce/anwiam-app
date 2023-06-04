@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VFT.OCT
+build_property.RootNamespace = VFT.OCT
+build_property.ProjectDir = C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/DailyRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXERhaWx5UmVjb3Jkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/EditSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXEVkaXRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/OctRegistrySuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXE9jdFJlZ2lzdHJ5U3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/ViewReportOCT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXFZpZXdSZXBvcnRPQ1QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/DailyRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXERhaWx5UmVjb3Jkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/EditSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXEVkaXRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/VftError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXFZmdEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/VFT/ViewReportVFT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkZUXFZpZXdSZXBvcnRWRlQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2f7nwralm4
