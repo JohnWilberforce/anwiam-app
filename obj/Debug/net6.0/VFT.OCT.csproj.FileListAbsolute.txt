@@ -1,3 +1,11 @@
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.csproj.AssemblyReference.cache
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.AssemblyInfoInputs.cache
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.AssemblyInfo.cs
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.csproj.CoreCompileInputs.cache
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.RazorAssemblyInfo.cache
+C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.RazorAssemblyInfo.cs
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\appsettings.json
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\VFT.OCT.staticwebassets.runtime.json
@@ -245,14 +253,6 @@ C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\runtimes
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.csproj.AssemblyReference.cache
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.AssemblyInfoInputs.cache
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.AssemblyInfo.cs
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.csproj.CoreCompileInputs.cache
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.RazorAssemblyInfo.cache
-C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\VFT.OCT.RazorAssemblyInfo.cs
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\staticwebassets\msbuild.VFT.OCT.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\staticwebassets\msbuild.build.VFT.OCT.props
 C:\Users\jache\Desktop\VFT_OCT_Records\VFT.OCT\VFT.OCT\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VFT.OCT.props

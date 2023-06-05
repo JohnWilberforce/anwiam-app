@@ -12,7 +12,7 @@ namespace VFT.OCT.Models
 
         [Key]
         public string? referredDrName { get; set; }
-        public string? reFfacility { get; set; }
+        //public string? reFfacility { get; set; }
         public int TotalVFTReferrals { get; set; }
         public decimal Amount { get; set; }
     }

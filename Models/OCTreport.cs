@@ -6,7 +6,7 @@ namespace VFT.OCT.Models
     {
         [Key]
         public string? referredDrName { get; set; }
-        public string? reFfacility { get; set; }
+        //public string? reFfacility { get; set; }
         public int ONHcount { get; set; }
         public int MaculaCount { get; set; }
         public int PachCount { get; set; }  

@@ -27,7 +27,61 @@ namespace VFT.OCT.Controllers
                           View(await _context.Octs.ToListAsync()) :
                           Problem("Entity set 'VFT_OCTContext.Octs'  is null.");
         }
+        [HttpGet]
+        public ViewResult GetTotals()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ViewResult Totals(DateTime stDate, DateTime eDate)
+        {
+            Total? total=new Total();
+            total=_context.Totals.FromSqlInterpolated($"select * from ufn_totals({stDate}, {eDate})").FirstOrDefault();
 
+            //var query = from t1 in _context.Vfts
+            //            join t2 in _context.Octs on t1.ScanId equals t2.ScanId
+            //            where t1.Date >=stDate && t1.Date <=eDate || t2.Date >=eDate && t2.Date <=eDate
+            //            select new
+            //            {
+            //                Count1 = t1.ScanId,
+            //                Count2 = t2.Onh,
+            //                Count3=t2.Macula,
+            //                Count4=t2.Pachymetry
+            //            };
+
+            //int vftCount = query.Count(result => result.Count1 != null);
+            //int onhCount = query.Count(result => result.Count2 != null);
+            //int maculaCount = query.Count(result => result.Count3 != null);
+            //int pachCount = query.Count(result => result.Count4 != null);
+            //int vftTotalAmount = vftCount * 100;
+            //long totalOfOnhMacPachyAmount = (onhCount*200 +maculaCount*100+pachCount* 100);
+            //Total t = new Total();
+
+            //t.VftCount = vftCount;
+            //t.OnhCount = onhCount;
+            //t.MaculaCount = maculaCount;
+            //t.PachymetryCount = pachCount;
+            //t.VftTotalAmount = vftTotalAmount;
+            //t.TotalOfOnhMacPachyAmount = totalOfOnhMacPachyAmount;
+            if (total != null)
+            {
+                ViewBag.VftCount = total.VftCount;
+                ViewBag.OnhCount = total.OnhCount;
+                ViewBag.MaculaCount = total.MaculaCount;
+                ViewBag.PachymetryCount = total.PachymetryCount;
+                ViewBag.VftTotalAmount = total.VftTotalAmount;
+                ViewBag.TotalOfOnhMacPachyAmount = total.TotalOfOnhMacPachyAmount;
+                ViewBag.month = stDate.ToString("MMMM").ToUpper();
+                // return PartialView("Totals", t);
+                return View("GetTotals");
+            }
+            
+            return View("GetTotals");
+
+
+
+
+        }
         // GET: OCT/Details/5
         public async Task<IActionResult> Details(string id)
         {
@@ -61,7 +115,7 @@ namespace VFT.OCT.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (_context.Vfts.Find(oct.ScanId) != null)
+                if (_context.Octs.Find(oct.ScanId) != null)
                 {
                     ViewBag.tryAgain = "Scan Id Already Used!!";
                     return View();
@@ -77,7 +131,12 @@ namespace VFT.OCT.Controllers
         // GET: OCT/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
-            var id1 = id.Replace("%2F", "/");
+            var id1 = id;
+            if (id.Contains("%2F"))
+            {
+                id1 = id.Replace("%2F", "/");
+            }
+            
             if (id1 == null || _context.Octs == null)
             {
                 return NotFound();
@@ -98,7 +157,11 @@ namespace VFT.OCT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("ScanId,PatientName,ReferredDrName,ReFfacility,Onh,Macula,Pachymetry,Date")] Oct oct)
         {
-            var id1 = id.Replace("%2F", "/");
+            var id1 = id;
+            if (id.Contains("%2F"))
+            {
+                id1 = id.Replace("%2F", "/");
+            }
             if (id1 != oct.ScanId)
             {
                 return NotFound();

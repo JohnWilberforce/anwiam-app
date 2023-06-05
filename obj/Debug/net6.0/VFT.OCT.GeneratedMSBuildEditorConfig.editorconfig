@@ -48,12 +48,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXEVkaXRTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/GetTotals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXEdldFRvdGFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/OctRegistrySuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXE9jdFJlZ2lzdHJ5U3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/Totals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT0NUXFRvdGFscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jache/Desktop/VFT_OCT_Records/VFT.OCT/VFT.OCT/Views/OCT/ViewReportOCT.cshtml]

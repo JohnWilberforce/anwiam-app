@@ -17,10 +17,10 @@ width:40%; border-radius: 10px;padding:5px; font-weight:bolder; color:white;">Go
             <th>
                 Doctor
             </th>
-            <th>
+           @* <th>
                 Facility
             </th>
-            <th>
+*@            <th>
                 Total VFT Referrals
             </th>
             <th>
@@ -30,33 +30,16 @@ width:40%; border-radius: 10px;padding:5px; font-weight:bolder; color:white;">Go
         </tr>
     </thead>
     <tbody>
-@*@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReferredDoctor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReferredFacility)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumberOfReferrals)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Amount)
-            </td>
 
-        </tr>
-}
-*@
         @foreach (var item in Model)
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.referredDrName)
+                   @Html.DisplayFor(modelItem => item.referredDrName)
                 </td>
-                <td>
+@*                <td>
                     @Html.DisplayFor(modelItem => item.reFfacility)
-                </td>
+                </td>*@
                 <td>
                     @Html.DisplayFor(modelItem => item.TotalVFTReferrals)
                 </td>

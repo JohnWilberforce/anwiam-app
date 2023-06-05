@@ -1,0 +1,43 @@
+﻿
+
+<div style="display:flex;">
+    <a asp-action="Create" style="text-decoration:none; text-align:center;background-color:darkgoldenrod;
+width:10%; border-radius: 10px; font-weight:bolder; color:white;">Go Back</a>
+</div>
+<br />
+<div class="card" style="padding:4px; border:solid lightgray 0.5px;">
+    <div class="card-header bg-primary" style="text-align:center;font-weight:bolder;"> MONTHLY TOTALS</div>
+    <div class="card-body">
+        @using (Html.BeginForm("Totals", "OCT", FormMethod.Post))
+        {
+            <div style="display:inline-flex;width:400px;justify-content:space-evenly">
+                <div style="width:150px;">
+                    <span style="font-weight:bold; margin-left:30%;">Start</span>
+
+                    <input type="date" name="stDate" class="form-control" id="autoSizingInput" placeholder="Start Date">
+
+                </div>
+                <div style="width:150px;">
+                    <span style="font-weight:bold;margin-left:30%;">End</span>
+
+                    <input type="date" name="eDate" class="form-control" id="autoSizingInputGroup" placeholder="End Date">
+
+                </div>
+                <button type="submit" style="font-weight:bolder;margin-left:4%;padding:2px; border-radius:10px;" class="btn-warning">Generate Totals</button>
+            </div>
+        }
+    </div>
+</div>
+<br />
+<div class="card" style="width:30%;">
+    <div class="card-header bg-info"> TOTALS FOR THE MONTH OF <span>@ViewBag.month</span></div>
+    <div class="card-body">
+        VFT Count:    @ViewBag.VftCount <br /><hr />
+            ONH Count:    @ViewBag.OnhCount <br /><hr />
+        Macula Count: @ViewBag.MaculaCount <br /><hr />
+        Pachymetry Count: @ViewBag.PachymetryCount <br /><hr />
+        Total VFT Amount: Ghs @ViewBag.VftTotalAmount <br /><hr />
+        Total OCT Amount: Ghs <span>@ViewBag.TotalOfOnhMacPachyAmount</span> <br />
+    </div>
+</div>
+

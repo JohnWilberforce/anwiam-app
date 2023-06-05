@@ -17,17 +17,17 @@ namespace VFT.OCT.Models
         }
 
         public virtual DbSet<Oct> Octs { get; set; } = null!;
+        public virtual DbSet<Total> Totals { get; set; } = null!;
         public virtual DbSet<Vft> Vfts { get; set; } = null!;
-        public virtual DbSet<VFTreport> VFTreports { get; set; }
-
-        public virtual DbSet<OCTreport> OCTreports { get; set; }
+        public virtual DbSet<OCTreport> OCTreports { get; set; } = null!;
+        public virtual DbSet<VFTreport> VFTreports { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("server= (localdb)\\MSSQLLocalDB; database=VFT_OCT; trusted_connection=true;");
+                optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=VFT_OCT; Trusted_Connection=True;");
             }
         }
 
@@ -78,6 +78,7 @@ namespace VFT.OCT.Models
                     .IsUnicode(false)
                     .HasColumnName("referredDrName");
             });
+
 
             modelBuilder.Entity<Vft>(entity =>
             {
